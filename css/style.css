@@ -27,3 +27,40 @@ a {
 h1, h2, strong {
   color: #111;
 }
+
+.header {
+    padding: 30px;
+    font-size: 28px;
+    text-align: center;
+    background: lightcyan;
+}
+
+.footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+}
+
+.post {
+    display: grid;
+    grid-template-columns:
+      minmax(1.2rem, 1fr)
+      minmax(auto, 57ch)
+      minmax(1.2rem, 1fr);
+}
+
+.post p {
+    grid-column: 2;
+}
+
+.post-title {
+    grid-column: 2;
+}
+
+date {
+    grid-column: 2;
+}
+
+.post-author {
+    grid-column: 2;
+}
