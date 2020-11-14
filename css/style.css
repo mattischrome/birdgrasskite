@@ -10,9 +10,18 @@ body {
 }
 
 article {
+    display: grid;
+    grid-template-columns:
+      minmax(1.2rem, 1fr)
+      minmax(auto, 57ch)
+      minmax(1.2rem, 1fr);
     background: lightgoldenrodyellow;
     padding: 1rem;
     margin: auto;
+}
+
+article > * {
+    grid-column: 2;
 }
 
 img {
@@ -39,28 +48,4 @@ h1, h2, strong {
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
-}
-
-.post {
-    display: grid;
-    grid-template-columns:
-      minmax(1.2rem, 1fr)
-      minmax(auto, 57ch)
-      minmax(1.2rem, 1fr);
-}
-
-.post p {
-    grid-column: 2;
-}
-
-.post-title {
-    grid-column: 2;
-}
-
-date {
-    grid-column: 2;
-}
-
-.post-author {
-    grid-column: 2;
 }
