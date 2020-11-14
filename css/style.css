@@ -1,0 +1,29 @@
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #222;
+  max-width: 40rem;
+  padding: 2rem;
+  margin: auto;
+  background: #ededed;
+}
+
+article {
+    background: lightgoldenrodyellow;
+    padding: 1rem;
+    margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: seagreen;
+  /* text-decoration: none; */
+}
+
+h1, h2, strong {
+  color: #111;
+}
