@@ -1,0 +1,11 @@
+#+hugo_base_dir: ../
+
+* DONE My first post :tag1:@category1:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+This is my post body. I'm going to type some more words and see it update in near to real time.
+* TODO My Second post :tag2:@category2:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-second-post
+This is the next post - this is one is a draft at the moment.
