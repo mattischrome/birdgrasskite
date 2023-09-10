@@ -1,6 +1,37 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://birdgrasskite.com/'
+languageCode = 'en-gb'
+title = 'Bird Grass Kite'
+#theme = 'hugo-theme-console'
 theme = 'risotto'
+copyright = "© [Matthew Dorey](https://birdgrasskite.com/)."
+[params.theme]
+  palette = 'dracula'
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
 [maarkup.goldmark.renderer]
   unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# Sidebar: about/bio
+[params.about]
+title = "Bird Grass Kite"
+description = "A blog about creativity in the age of AI."

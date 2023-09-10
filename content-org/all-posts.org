@@ -1,5 +1,4 @@
 #+hugo_base_dir: ../
-
 * DONE My first post :tag1:@category1:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-first-post
@@ -8,4 +7,10 @@ This is my post body. I'm going to type some more words and see it update in nea
 * TODO My Second post :tag2:@category2:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-second-post
+:END:
 This is the next post - this is one is a draft at the moment.
+* TODO My Third Post :tag1:tag2:@category1:@category2:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-third-post
+:END:
+This is the next post. I have experimented with adding two tags and two categories.
